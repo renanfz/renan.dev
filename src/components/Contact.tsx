@@ -140,48 +140,16 @@ export function Training() {
                >
                     <SectionLabel>Formação</SectionLabel>
 
-                    <h2
-                         style={{
-                              fontSize: 'clamp(28px, 4vw, 52px)',
-                              fontWeight: 600,
-                              letterSpacing: '-0.025em',
-                              color: '#f0f0f0',
-                              marginBottom: '16px',
-                         }}
-                    >
-                         Vamos conversar?
-                    </h2>
-                    <p
-                         style={{
-                              fontSize: '15px',
-                              color: '#6b6b7a',
-                              marginBottom: '48px',
-                              maxWidth: '440px',
-                         }}
-                    >
-                         Estou buscando minha primeira oportunidade de estágio em desenvolvimento.
+                    <p style={{
+                         fontSize: '15px',
+                         lineHeight: 2,
+                         color: '#8888a0'
+                    }}>
+                         <p>Análise e Desenvolvimento de Sistemas
+                         </p>
+                         <p>UNA | Pouso Alegre, MG</p>
+                         <p>2º semestre · Em andamento</p>
                     </p>
-
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', maxWidth: '320px' }}>
-                         <ContactLink
-                              href="https://github.com/renanfz"
-                              icon={<GithubIcon size={15} />}
-                              label="GitHub"
-                              detail="github.com/renanfz"
-                         />
-                         <ContactLink
-                              href="https://linkedin.com/in/renanfz"
-                              icon={<LinkedinIcon size={15} />}
-                              label="LinkedIn"
-                              detail="linkedin.com/in/renanfz"
-                         />
-                         <ContactLink
-                              href="mailto:renanfsouza135@gmail.com"
-                              icon={<MailIcon size={15} />}
-                              label="E-mail"
-                              detail="renanfsouza135@gmail.com"
-                         />
-                    </div>
                </div>
           </section>
      )
