@@ -24,7 +24,7 @@ export function Footer() {
                          <p style={{ fontSize: '13px', color: '#9090a8', fontWeight: 400 }}>Renan Freitas</p>
                          <p
                               style={{
-                                   fontSize: '11px',
+                                   fontSize: '13px',
                                    color: '#4a4a5a',
                                    fontFamily: "'JetBrains Mono', monospace",
                                    marginTop: '2px',

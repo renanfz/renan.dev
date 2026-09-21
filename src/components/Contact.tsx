@@ -46,7 +46,7 @@ function ContactLink({
                     </p>
                     <p
                          style={{
-                              fontSize: '11px',
+                              fontSize: '13px',
                               color: '#5a5a70',
                               fontFamily: "'JetBrains Mono', monospace",
                          }}
