@@ -42,7 +42,7 @@ function ProjectCard({ project }: { project: Project }) {
                <div
                     style={{
                          height: '240px',
-                         backgroundColor: '#111116',
+                         backgroundColor: 'white',
                          borderBottom: '1px solid #1a1a22',
                          display: 'flex',
                          alignItems: 'center',
@@ -50,52 +50,9 @@ function ProjectCard({ project }: { project: Project }) {
                          position: 'relative',
                          overflow: 'hidden',
                     }}
+                    className='bg-pink-400'
                >
-                    <div
-                         style={{
-                              width: '80%',
-                              maxWidth: '480px',
-                              backgroundColor: '#16161e',
-                              borderRadius: '8px',
-                              border: '1px solid #22222e',
-                              padding: '16px',
-                              fontFamily: "'JetBrains Mono', monospace",
-                         }}
-                    >
-                         <div style={{ display: 'flex', gap: '6px', marginBottom: '12px' }}>
-                              <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#2a2a38' }} />
-                              <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#2a2a38' }} />
-                              <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#2a2a38' }} />
-                         </div>
-                         {[
-                              { label: 'Entrega #001', status: 'Em rota', color: '#04D4E6' },
-                              { label: 'Entrega #002', status: 'Concluída', color: '#4a9e6a' },
-                              { label: 'Entrega #003', status: 'Pendente', color: '#7a7a90' },
-                         ].map((row) => (
-                              <div
-                                   key={row.label}
-                                   style={{
-                                        display: 'flex',
-                                        justifyContent: 'space-between',
-                                        alignItems: 'center',
-                                        padding: '8px 0',
-                                        borderBottom: '1px solid #1e1e28',
-                                   }}
-                              >
-                                   <span style={{ fontSize: '11px', color: '#9090a8' }}>{row.label}</span>
-                                   <span
-                                        style={{
-                                             fontSize: '10px',
-                                             color: row.color,
-                                             fontFamily: "'JetBrains Mono', monospace",
-                                             letterSpacing: '0.04em',
-                                        }}
-                                   >
-                                        {row.status}
-                                   </span>
-                              </div>
-                         ))}
-                    </div>
+                    <img src="src\assets\img-rotab-deliverys/page01.png" alt="src\assets\img-rotab-deliverys" />
                </div>
 
                <div style={{ padding: '28px 32px' }}>
