@@ -37,6 +37,8 @@ function ProjectCard({ project }: { project: Project }) {
                     borderRadius: '10px',
                     backgroundColor: '#0f0f13',
                     overflow: 'hidden',
+                    maxWidth: '400px',
+
                }}
           >
                <div
@@ -44,15 +46,23 @@ function ProjectCard({ project }: { project: Project }) {
                          height: '240px',
                          backgroundColor: 'white',
                          borderBottom: '1px solid #1a1a22',
-                         display: 'flex',
-                         alignItems: 'center',
-                         justifyContent: 'center',
                          position: 'relative',
-                         overflow: 'hidden',
+                         overflow: 'hidden'
                     }}
-                    className='bg-pink-400'
                >
-                    <img src="src\assets\img-rotab-deliverys/page01.png" alt="src\assets\img-rotab-deliverys" />
+                    <img
+                         src="src/assets/img-rotab-deliverys/card-rotab2.png"
+                         alt="Preview do projeto Rotab Deliverys"
+                         style={{
+                              display: 'block',
+                              width: '100%',
+                              height: 'auto', // Permite que a altura mude proporcionalmente
+                              maxWidth: '400px', // Substitua pelo tamanho real da imagem em pixels
+                              objectFit: 'cover',
+                              objectPosition: 'center top',
+                         }}
+
+                    />
                </div>
 
                <div style={{ padding: '28px 32px' }}>
