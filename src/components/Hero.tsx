@@ -32,7 +32,7 @@ export function Hero() {
                                    width: '6px',
                                    height: '6px',
                                    borderRadius: '50%',
-                                   backgroundColor: '#04D4E6',
+                                   backgroundColor: '#3fbca6',
                                    display: 'inline-block',
                               }}
                          />
@@ -45,7 +45,7 @@ export function Hero() {
                                    textTransform: 'uppercase',
                               }}
                          >
-                              Portfólio · 2026
+                              Disponível para estágio · 2027
                          </span>
                     </div>
 
@@ -68,10 +68,10 @@ export function Hero() {
                               fontWeight: 300,
                               color: '#9090a8',
                               letterSpacing: '-0.01em',
-                              marginBottom: '28px',
+                              marginBottom: '20px',
                          }}
                     >
-                         Desenvolvedor Web em formação
+                         Do caderninho ao sistema
                     </p>
 
                     <p
@@ -83,8 +83,9 @@ export function Hero() {
                               marginBottom: '48px',
                          }}
                     >
-                         Estudante de Análise e Desenvolvimento de Sistemas, aprofundando meus
-                         conhecimentos em React, TypeScript, Node.js e desenvolvimento de APIs.
+                         Sistemas web de ponta a ponta: interface, API e banco de dados
+                         {/* Estudante de Análise e Desenvolvimento de Sistemas, aprofundando meus
+                         conhecimentos em React, TypeScript, Node.js e desenvolvimento de APIs. */}
                     </p>
 
                     <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>

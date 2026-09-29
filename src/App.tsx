@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { About } from './components/About'
-import { Contact, Training } from './components/Contact'
+import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { Hero } from './components/Hero'
@@ -52,7 +52,6 @@ export default function App() {
           <Projects projects={PROJECTS} />
           <About />
           <Stack />
-          <Training/>
           <Contact />
         </main>
         <Footer />

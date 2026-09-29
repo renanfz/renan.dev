@@ -81,7 +81,7 @@ function ProjectCard({ project }: { project: Project }) {
                          <p
                               style={{
                                    fontSize: '13px',
-                                   color: '#04D4E6',
+                                   color: '#3fbca6',
                                    fontFamily: "'JetBrains Mono', monospace",
                                    letterSpacing: '0.04em',
                               }}
@@ -110,7 +110,7 @@ function ProjectCard({ project }: { project: Project }) {
 
                     <div style={{ display: 'flex', gap: '10px' }}>
                          <a
-                              href={project.liveUrl}
+                              href={'https://renanfz.github.io/rotab-deliverys/'}
                               style={{
                                    display: 'inline-flex',
                                    alignItems: 'center',

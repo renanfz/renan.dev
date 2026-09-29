@@ -65,7 +65,7 @@ export function Stack() {
                                         style={{
                                              fontFamily: "'JetBrains Mono', monospace",
                                              fontSize: '11px',
-                                             color: '#04D4E6',
+                                             color: '#3fbca6',
                                              letterSpacing: '0.08em',
                                              textTransform: 'uppercase',
                                              marginBottom: '16px',

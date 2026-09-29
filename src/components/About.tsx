@@ -21,7 +21,7 @@ export function About() {
                     <div
                          style={{
                               display: 'grid',
-                              gridTemplateColumns: '1fr 1fr',
+                              gridTemplateColumns: '0.9fr 1fr',
                               gap: '80px',
                               alignItems: 'start',
                          }}
@@ -72,6 +72,27 @@ export function About() {
                                    Meu objetivo é conquistar minha primeira oportunidade de estágio na área de
                                    desenvolvimento.
                               </p>
+                              <div className='mt-7'>
+                                   <span
+                                        style={{
+                                             fontFamily: "'JetBrains Mono', monospace",
+                                             fontSize: '11px',
+                                             color: 'white',
+                                             letterSpacing: '0.1em',
+                                             textTransform: 'uppercase',
+                                        }}
+                                   >
+                                        Formação
+                                   </span>
+
+                                   <p style={{
+                                        fontSize: '15px',
+                                        lineHeight: 3,
+                                        color: '#8888a0'
+                                   }}>
+                                        <p><strong>Análise e Desenvolvimento de Sistemas</strong> · UNA, Pouso Alegre (MG)</p>
+                                   </p>
+                              </div>
                          </div>
                     </div>
                </div>

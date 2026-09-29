@@ -39,7 +39,7 @@ function ContactLink({
                     el.style.backgroundColor = 'transparent'
                }}
           >
-               <span style={{ color: '#04D4E6', display: 'flex' }}>{icon}</span>
+               <span style={{ color: '3fbca6', display: 'flex' }}>{icon}</span>
                <div>
                     <p style={{ fontSize: '13px', fontWeight: 500, color: '#d0d0e0', marginBottom: '2px' }}>
                          {label}
@@ -122,36 +122,5 @@ export function Contact() {
           </section>
      )
 }
-export function Training() {
-     return (
-          <section
-               id="formacao"
-               style={{
-                    padding: '120px 0',
-                    borderTop: '1px solid #1a1a22',
-               }}
-          >
-               <div
-                    style={{
-                         maxWidth: '1080px',
-                         margin: '0 auto',
-                         padding: '0 24px',
-                    }}
-               >
-                    <SectionLabel>Formação</SectionLabel>
 
-                    <p style={{
-                         fontSize: '15px',
-                         lineHeight: 2,
-                         color: '#8888a0'
-                    }}>
-                         <p>Análise e Desenvolvimento de Sistemas
-                         </p>
-                         <p>UNA | Pouso Alegre, MG</p>
-                         <p>2º semestre · Em andamento</p>
-                    </p>
-               </div>
-          </section>
-     )
-}
 
