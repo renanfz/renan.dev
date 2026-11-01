@@ -32,8 +32,8 @@ function Tag({ label }: { label: string }) {
 function ProjectCard({ project }: { project: Project }) {
      return (
           <div
-               style={{
-                    border: '1px solid #1a1a22',
+               style={{/* #1a1a22 */
+                    border: '1px solid #6b6b7a',
                     borderRadius: '10px',
                     backgroundColor: '#0f0f13',
                     overflow: 'hidden',
@@ -43,7 +43,7 @@ function ProjectCard({ project }: { project: Project }) {
           >
                <div
                     style={{
-                         height: '240px',
+                         height: '235px',
                          backgroundColor: 'white',
                          borderBottom: '1px solid #1a1a22',
                          position: 'relative',
@@ -51,7 +51,7 @@ function ProjectCard({ project }: { project: Project }) {
                     }}
                >
                     <img
-                         src="/img-rotab-deliverys/card-rotab2.png"
+                         src="public/card-rotab2.png"
                          alt="Preview do projeto Rotab Deliverys"
                          style={{
                               display: 'block',
