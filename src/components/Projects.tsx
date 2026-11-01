@@ -51,7 +51,7 @@ function ProjectCard({ project }: { project: Project }) {
                     }}
                >
                     <img
-                         src="public/card-rotab2.png"
+                         src="/card-rotab2.png"
                          alt="Preview do projeto Rotab Deliverys"
                          style={{
                               display: 'block',

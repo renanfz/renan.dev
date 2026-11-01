@@ -85,13 +85,13 @@ export function About() {
                                         Formação
                                    </span>
 
-                                   <p style={{
+                                   <div style={{
                                         fontSize: '15px',
                                         lineHeight: 3,
                                         color: '#8888a0'
                                    }}>
                                         <p><strong>Análise e Desenvolvimento de Sistemas</strong> · UNA, Pouso Alegre (MG)</p>
-                                   </p>
+                                   </div>
                               </div>
                          </div>
                     </div>

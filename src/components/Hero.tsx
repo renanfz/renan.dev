@@ -23,7 +23,7 @@ export function Hero() {
                          width: '100%',
                     }}
                >
-                    <img className='h-35 w-35 bg-neutral-900 rounded-full my-10 md:order-2 mx-auto md:h-60 md:w-60 outline-3 border-7 border-d border-black outline-[#1e1e28] hover:outline-[#3fbca6] mb-20 transition-colors transition-discrete' src='public/me.jpg'></img>
+                    <img className='h-35 w-35 bg-neutral-900 rounded-full my-10 md:order-2 mx-auto md:h-60 md:w-60 outline-3 border-7 border-d border-black outline-[#1e1e28] hover:outline-[#3fbca6] mb-20 transition-colors transition-discrete' src='/me.jpg'></img>
 
                     <div className="md:order-1">
                          <div
