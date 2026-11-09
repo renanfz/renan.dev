@@ -1,4 +1,4 @@
-import { ArrowRight, GithubIcon } from './Icons'
+import { ArrowRight, FileUser, GithubIcon } from './Icons'
 
 export function Hero() {
      return (
@@ -23,7 +23,7 @@ export function Hero() {
                          width: '100%',
                     }}
                >
-                    <img className='h-35 w-35 bg-neutral-900 rounded-full my-10 md:order-2 mx-auto md:h-60 md:w-60 outline-3 border-7 border-d border-black outline-[#1e1e28] hover:outline-[#3fbca6] mb-20 transition-colors transition-discrete' src='me.jpg'></img>
+                    <img className='h-35 w-35 bg-neutral-900 rounded-full my-10 md:order-2 mx-auto md:h-60 md:w-60 outline-3 border-7 border-d border-black outline-[#1e1e28] hover:outline-[#6b6b7a] mb-20 transition-colors transition-discrete' src='me.jpg'></img>
 
                     <div className="md:order-1">
                          <div
@@ -31,7 +31,7 @@ export function Hero() {
                                    display: 'inline-flex',
                                    alignItems: 'center',
                                    gap: '8px',
-                                   marginBottom: '40px',
+                                   marginBottom: '30px',
                               }}
                          >
                               <span
@@ -46,7 +46,7 @@ export function Hero() {
                               <span
                                    style={{
                                         fontFamily: "'JetBrains Mono', monospace",
-                                        fontSize: '11px',
+                                        fontSize: '13px',
                                         color: '#6b6b7a',
                                         letterSpacing: '0.08em',
                                         textTransform: 'uppercase',
@@ -57,7 +57,7 @@ export function Hero() {
                          </div>
                          <h1
                               style={{
-                                   fontSize: 'clamp(42px, 7vw, 80px)',
+                                   fontSize: 'clamp(40px, 7vw, 60px)',
                                    fontWeight: 600,
                                    lineHeight: 1.05,
                                    letterSpacing: '-0.03em',
@@ -73,10 +73,21 @@ export function Hero() {
                                    fontWeight: 300,
                                    color: '#9090a8',
                                    letterSpacing: '-0.01em',
+                                   marginBottom: '10px',
+                              }}
+                         >
+                              Estudante de Análise e Desenvolvimento de Sistemas
+                         </p>
+                         <p
+                              style={{
+                                   fontSize: 'clamp(18px, 2.5vw, 24px)',
+                                   fontWeight: 300,
+                                   color: '#9090a8',
+                                   letterSpacing: '-0.01em',
                                    marginBottom: '20px',
                               }}
                          >
-                              Do caderninho ao sistema
+                              Foco em frontend com React e TypeScript
                          </p>
                          <p
                               style={{
@@ -87,7 +98,7 @@ export function Hero() {
                                    marginBottom: '48px',
                               }}
                          >
-                              Transformando aprendizado em projetos reais com interface, API e banco de dados.
+                              2º semestre. Buscando minha primeira oportunidade em desenvolvimento
                               {/* Estudante de Análise e Desenvolvimento de Sistemas, aprofundando meus
                               conhecimentos em React, TypeScript, Node.js e desenvolvimento de APIs. */}
                          </p>
@@ -116,6 +127,38 @@ export function Hero() {
                               >
                                    Ver projetos
                                    <ArrowRight size={14} />
+                              </a>
+                              <a
+                                   href=""
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   style={{
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        gap: '8px',
+                                        padding: '10px 20px',
+                                        backgroundColor: 'transparent',
+                                        color: '#9090a8',
+                                        fontSize: '14px',
+                                        fontWeight: 400,
+                                        borderRadius: '6px',
+                                        border: '1px solid #1e1e28',
+                                        textDecoration: 'none',
+                                        transition: 'all 0.15s',
+                                   }}
+                                   onMouseEnter={(e) => {
+                                        const el = e.currentTarget as HTMLElement
+                                        el.style.borderColor = '#3a3a50'
+                                        el.style.color = '#f0f0f0'
+                                   }}
+                                   onMouseLeave={(e) => {
+                                        const el = e.currentTarget as HTMLElement
+                                        el.style.borderColor = '#1e1e28'
+                                        el.style.color = '#9090a8'
+                                   }}
+                              >
+                                   <FileUser />
+                                   Currículo
                               </a>
                               <a
                                    href="https://github.com/renanfz"

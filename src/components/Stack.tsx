@@ -11,7 +11,7 @@ const STACK: Record<string, { name: string; icon: React.ReactNode }[]> = {
      Backend: [
           { name: 'Node.js', icon: <IconNode /> },
           { name: 'Fastify', icon: <IconFastify /> },
-          { name: 'Prisma', icon: <IconPrisma /> },
+          { name: 'Prisma ORM', icon: <IconPrisma /> },
      ],
      'Banco de dados': [
           { name: 'PostgreSQL', icon: <IconPostgres /> },
@@ -28,7 +28,7 @@ export function Stack() {
           <section
                id="stack"
                style={{
-                    padding: '120px 0',
+                    padding: '90px 0',
                     borderTop: '1px solid #1a1a22',
                }}
           >

@@ -33,7 +33,7 @@ function ProjectCard({ project }: { project: Project }) {
      return (
           <div
                style={{/* #1a1a22 */
-                    border: '1px solid #6b6b7a',
+                    border: '1px solid #3a3a50',
                     borderRadius: '10px',
                     backgroundColor: '#0f0f13',
                     overflow: 'hidden',
@@ -177,7 +177,7 @@ export function Projects({ projects }: { projects: Project[] }) {
           <section
                id="projetos"
                style={{
-                    padding: '120px 0',
+                    padding: '90px 25px',
                     maxWidth: '1080px',
                     margin: '0 auto',
                     paddingLeft: '24px',
@@ -204,7 +204,7 @@ export function Projects({ projects }: { projects: Project[] }) {
                          maxWidth: '480px',
                     }}
                >
-                    Projetos desenvolvidos durante minha trajetória de aprendizado.
+                    Projetos pessoais de desenvolvimento
                </p>
 
                <div style={{ display: 'grid', gap: '24px' }}>

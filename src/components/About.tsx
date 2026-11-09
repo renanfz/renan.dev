@@ -5,7 +5,7 @@ export function About() {
           <section
                id="sobre"
                style={{
-                    padding: '120px 0',
+                    padding: '90px 0',
                     borderTop: '1px solid #1a1a22',
                }}
           >
@@ -48,30 +48,11 @@ export function About() {
                                         marginBottom: '20px',
                                    }}
                               >
-                                   Sou estudante de Análise e Desenvolvimento de Sistemas e estou construindo minha
-                                   experiência em desenvolvimento web.
+                                   Estudo Análise e Desenvolvimento de Sistemas na UNA, em Pouso Alegre, e estou no 2º semestre.
+                                   Tenho mais prática com frontend, principalmente React e TypeScript. Também já fiz projetos de estudo com Node.js e APIs.
+                                   Procuro estágio em desenvolvimento para 2027.
                               </p>
-                              <p
-                                   style={{
-                                        fontSize: '15px',
-                                        lineHeight: 1.75,
-                                        color: '#8888a0',
-                                        marginBottom: '20px',
-                                   }}
-                              >
-                                   Atualmente estou aprofundando meus conhecimentos em React, TypeScript, Node.js e
-                                   APIs, buscando transformar o que estudo em projetos práticos.
-                              </p>
-                              <p
-                                   style={{
-                                        fontSize: '15px',
-                                        lineHeight: 1.75,
-                                        color: '#8888a0',
-                                   }}
-                              >
-                                   Meu objetivo é conquistar minha primeira oportunidade de estágio na área de
-                                   desenvolvimento.
-                              </p>
+                         
                               <div className='mt-7'>
                                    <span
                                         style={{

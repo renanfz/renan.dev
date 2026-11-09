@@ -63,7 +63,7 @@ export function Contact() {
           <section
                id="contato"
                style={{
-                    padding: '120px 0',
+                    padding: '90px 0',
                     borderTop: '1px solid #1a1a22',
                }}
           >
@@ -95,15 +95,15 @@ export function Contact() {
                               maxWidth: '440px',
                          }}
                     >
-                         Estou buscando minha primeira oportunidade de estágio em desenvolvimento.
+                         E-mail é o jeito mais rápido de falar comigo
                     </p>
 
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', maxWidth: '320px' }}>
                          <ContactLink
-                              href="https://github.com/renanfz"
-                              icon={<GithubIcon size={15} />}
-                              label="GitHub"
-                              detail="github.com/renanfz"
+                              href="mailto:renanfsouza135@gmail.com"
+                              icon={<MailIcon size={15} />}
+                              label="E-mail"
+                              detail="renanfsouza135@gmail.com"
                          />
                          <ContactLink
                               href="https://linkedin.com/in/renanfz"
@@ -112,10 +112,10 @@ export function Contact() {
                               detail="linkedin.com/in/renanfz"
                          />
                          <ContactLink
-                              href="mailto:renanfsouza135@gmail.com"
-                              icon={<MailIcon size={15} />}
-                              label="E-mail"
-                              detail="renanfsouza135@gmail.com"
+                              href="https://github.com/renanfz"
+                              icon={<GithubIcon size={15} />}
+                              label="GitHub"
+                              detail="github.com/renanfz"
                          />
                     </div>
                </div>
