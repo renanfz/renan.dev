@@ -129,7 +129,7 @@ export function Hero() {
                                    <ArrowRight size={14} />
                               </a>
                               <a
-                                   href=""
+                                   href="./public/curriculo-renan.pdf"
                                    target="_blank"
                                    rel="noopener noreferrer"
                                    style={{
